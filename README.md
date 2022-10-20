@@ -1,0 +1,3 @@
+可以考虑写一个打镜像的yaml，运行起来之后，可以直接对接Prometheus。
+容器运行起来之后，会定期地网页端爬取数据，并且通过PushGateway推送到Prometheus端。
+Prometeus Server 的地址可以通过一个环境变量决定。
